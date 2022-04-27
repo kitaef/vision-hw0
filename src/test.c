@@ -64,7 +64,7 @@ void test_shift()
 {
     image im = load_image("data/dog.jpg");
     image c = copy_image(im);
-    shift_image(c, 1, .1);
+    shift_image(c, 1, .1, 0);
     TEST(within_eps(im.data[0], c.data[0]));
     TEST(within_eps(im.data[im.w*im.h+13] + .1,  c.data[im.w*im.h + 13]));
     TEST(within_eps(im.data[2*im.w*im.h+72],  c.data[2*im.w*im.h + 72]));
