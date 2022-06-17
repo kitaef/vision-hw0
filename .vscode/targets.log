@@ -1,0 +1,453 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Fri Jun 17 13:25:06 2022
+
+# Variables
+
+# environment
+SYSTEMDRIVE = C:
+# makefile (from 'Makefile', line 5)
+OBJ = load_image.o process_image.o args.o
+# makefile (from 'Makefile', line 16)
+ARFLAGS = rcs
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 15)
+AR = ar
+# makefile (from 'Makefile', line 12)
+OBJDIR = ./obj/
+# environment
+USERPROFILE = C:\Users\au01044
+# environment
+LOCALAPPDATA = C:\Users\au01044\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-b52b3c0e-9ed1-425a-9b5d-71f02b67435d-sock
+# makefile (from 'Makefile', line 8)
+VPATH = ./src/:./
+# environment
+VSCODE_CWD = C:\Users\au01044\AppData\Local\Programs\Microsoft VS Code
+# environment
+SYSTEMROOT = C:\Windows
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft Azure Information Protection\Powershell
+# default
+MAKE_COMMAND := make.exe
+# environment
+USERDNSDOMAIN = CORP.NOXIANE.NET
+# makefile (from 'Makefile', line 6)
+EXOBJ = test.o
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_328_MYRLGUPUGYDCMBRW
+# environment
+ONEDRIVECOMMERCIAL = C:\Users\au01044\OneDrive - Alliance (1)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\au01044\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\au01044\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\au01044\OneDrive - Alliance (1)
+# makefile
+CURDIR := c:/projects/vision-hw0
+# environment
+VSCODE_PIPE_LOGGING = true
+# makefile (from 'Makefile', line 19)
+COMMON = -Iinclude/ -Isrc/ 
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+STEELCENTRAL_ATERNITY_AGENT_HOME = C:\Program Files (x86)\Aternity Information Systems\Agent\
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 328
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+*F = $(notdir $*)
+# makefile (from 'Makefile', line 2)
+OPENMP = 0
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# makefile (from 'Makefile', line 11)
+EXEC = uwimg
+# makefile (from 'Makefile', line 10)
+ALIB = libuwimg.a
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := Windows32
+# makefile (from 'Makefile', line 41)
+OBJS = $(addprefix $(OBJDIR), $(OBJ))
+# environment
+ATERNITY_AGENT_HOME = C:\Program Files (x86)\Aternity Information Systems\Agent\
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := C:/projects/conda_environments/dls_final/Library/bin/sh.exe
+# environment
+HOMEPATH = \Users\au01044
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# environment
+WINDIR = C:\Windows
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\TUXEDO\Tuxedo_Client_x86_v11\BIN;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\SafeNet\Authentication\SAC\x64;C:\Program Files\SafeNet\Authentication\SAC\x32;C:\Perl\bin;C:\Users\au01044\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\au01044\AppData\Local\Programs\Python\Python310\;C:\Users\au01044\AppData\Local\Microsoft\WindowsApps;C:\Users\au01044\AppData\Local\Programs\Git\cmd;C:\Users\au01044\AppData\Local\GitHubDesktop\bin;C:\Users\au01044\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;C:\projects\conda_environments\dls_final\Library\bin;
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+COMPUTERNAME = RULH106184
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# environment
+LOGONSERVER = \\DC-CRAS
+# makefile (from 'Makefile', line 1)
+OPENCV = 0
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = au01044
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from 'Makefile', line 17)
+OPTS = -Ofast
+# environment
+USERDOMAIN = CORP
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile
+.DEFAULT_GOAL := all
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# makefile (from 'Makefile', line 18)
+LDFLAGS = -lm -pthread 
+# environment
+UATDATA = C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+# environment
+USERDOMAIN_ROAMINGPROFILE = CORP
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\au01044\AppData\Roaming
+# makefile (from 'Makefile', line 31)
+CFLAGS = -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC $(OPTS)
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# makefile (from 'Makefile', line 40)
+EXOBJS = $(addprefix $(OBJDIR), $(EXOBJ))
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\au01044\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\ab2e854e44b8466404d8a6804b079026-1.68.1-main-sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 42)
+DEPS = $(wildcard src/*.h) Makefile 
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
+# makefile (from 'Makefile', line 9)
+SLIB = libuwimg.so
+# makefile (from 'Makefile', line 3)
+DEBUG = 0
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = 8e0c
+# makefile (from 'Makefile', line 14)
+CC = gcc
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+# variable set hash-table stats:
+# Load=117/1024=11%, Rehash=0, Collisions=11/175=6%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# src (key c:/projects/vision-hw0/src, mtime 1655241243): 11 files, no impossibilities.
+# . (key c:/projects/vision-hw0, mtime 1655241344): 27 files, no impossibilities.
+# ./src (key c:/projects/vision-hw0/src, mtime 1655241243): 11 files, no impossibilities.
+
+# 49 files, no impossibilities in 3 directories.
+
+# Implicit Rules
+
+obj/%.o: %.c src/args.h src/image.h src/stb_image.h src/stb_image_write.h src/test.h Makefile
+#  recipe to execute (from 'Makefile', line 58):
+	$(CC) $(COMMON) $(CFLAGS) -c $< -o $@
+
+# 1 implicit rules, 0 (0.0%) terminal.
+# Files
+
+obj/load_image.o: ./src/load_image.c src/args.h src/image.h src/stb_image.h src/stb_image_write.h src/test.h Makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'load_image'
+#  Last modified 2022-04-27 23:16:10
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 58):
+	$(CC) $(COMMON) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-27 23:15:15
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stb_image_write.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-27 23:15:15
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 66):
+	rm -rf $(OBJS) $(SLIB) $(ALIB) $(EXEC) $(EXOBJS) $(OBJDIR)/*
+
+obj:
+#  Implicit rule search has not been done.
+#  Last modified 2022-04-27 23:16:13
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 61):
+	mkdir -p obj
+
+libuwimg.so: obj/load_image.o obj/process_image.o obj/args.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-04-27 23:16:13
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
+#  recipe to execute (from 'Makefile', line 55):
+	$(CC) $(CFLAGS) -shared $^ -o $@ $(LDFLAGS)
+
+# Not a target:
+src/test.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-27 23:15:15
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/args.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-27 23:15:15
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: obj libuwimg.so libuwimg.a uwimg
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
+
+uwimg: obj/test.o obj/load_image.o obj/process_image.o obj/args.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 49):
+	$(CC) $(COMMON) $(CFLAGS) $^ -o $@ $(LDFLAGS) 
+
+# Not a target:
+obj/args.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+libuwimg.a: obj/load_image.o obj/process_image.o obj/args.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 52):
+	$(AR) $(ARFLAGS) $@ $^
+
+# Not a target:
+./src/process_image.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-17 13:23:29
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+obj/test.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/process_image.o: ./src/process_image.c src/args.h src/image.h src/stb_image.h src/stb_image_write.h src/test.h Makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'process_image'
+#  Last modified 2022-04-27 23:16:11
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := obj/process_image.o
+# automatic
+# * := process_image
+# automatic
+# < := ./src/process_image.c
+# automatic
+# + := ./src/process_image.c src/args.h src/image.h src/stb_image.h src/stb_image_write.h src/test.h Makefile
+# automatic
+# % := 
+# automatic
+# ^ := ./src/process_image.c src/args.h src/image.h src/stb_image.h src/stb_image_write.h src/test.h Makefile
+# automatic
+# ? := ./src/process_image.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/17=12%
+#  recipe to execute (from 'Makefile', line 58):
+	$(CC) $(COMMON) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+src/stb_image.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-27 23:15:15
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+./src/load_image.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-27 23:15:15
+#  File has been updated.
+#  Successfully updated.
+
+.PHONY: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/image.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-27 23:15:15
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=21/1024=2%, Rehash=0, Collisions=0/96=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# General ('VPATH' variable) search path:
+# ./src
+
+# strcache buffers: 1 (0) / strings = 58 / storage = 590 B / avg = 10 B
+# current buf: size = 8162 B / used = 590 B / count = 58 / avg = 10 B
+
+# strcache performance: lookups = 120 / hit rate = 51%
+# hash-table stats:
+# Load=58/8192=1%, Rehash=0, Collisions=0/120=0%
+# Finished Make data base on Fri Jun 17 13:25:06 2022
+
+ 

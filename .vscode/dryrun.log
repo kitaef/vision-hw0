@@ -1,0 +1,18 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'c:/projects/vision-hw0'
+mkdir -p obj
+ 
+gcc -Iinclude/ -Isrc/  -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC -Ofast -c ./src/load_image.c -o obj/load_image.o
+ 
+gcc -Iinclude/ -Isrc/  -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC -Ofast -c ./src/process_image.c -o obj/process_image.o
+ 
+gcc -Iinclude/ -Isrc/  -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC -Ofast -c ./src/args.c -o obj/args.o
+ 
+gcc -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC -Ofast -shared obj/load_image.o obj/process_image.o obj/args.o -o libuwimg.so -lm -pthread 
+ar rcs libuwimg.a obj/load_image.o obj/process_image.o obj/args.o
+ 
+gcc -Iinclude/ -Isrc/  -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC -Ofast -c ./src/test.c -o obj/test.o
+gcc -Iinclude/ -Isrc/  -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC -Ofast obj/test.o obj/load_image.o obj/process_image.o obj/args.o -o uwimg -lm -pthread  
+ 
+make: Leaving directory 'c:/projects/vision-hw0'
+ 
